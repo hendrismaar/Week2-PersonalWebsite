@@ -83,6 +83,14 @@ hr {
     float:  right;
 }
 
+.animation-box {
+    border: 2px solid wheat;
+    height: 204px;
+    width: 204px;
+    margin: 2rem auto;
+    position: relative;
+}
+
 .btn {
 	border: none;
 	background: #404040;
@@ -100,8 +108,8 @@ hr {
 	color: #404040;
 	font-weight: 700 !important;
 	letter-spacing: 3px;
-	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 	transition: all 0.3s ease 0s;
 }
 
